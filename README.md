@@ -11,12 +11,11 @@ This lab is to practice setting up Peering between virtual machines in seperate 
 
 ## Resources
 
-VM | Private IP | VNet (Address Spaces) | 
-
-VM | Expected subnet | Private IP address
-vm0 | 10.0.0.0/24 | 10.0.1.4
-vm1 | 10.1.0.0/24 | 10.1.0.4
-vm2 | 10.2.0.0/24 | 10.2.1.4
+| VM | Private IP | VNet (Region - Address Space) |
+|---|---|---|
+| vm0 | 10.0.1.4 | VN0 (North Central US - 10.0.0.0/16) |
+| vm1 | 10.1.0.4 | VN1 (Sweden Central - 10.1.0.0/16) |
+| vm2 | 10.2.1.4 | VN2 (Sweden Central - 10.2.0.0/16) |
 
 ## Local Peering vs Global Peering & the Importance of Address Space
 
